@@ -1,0 +1,241 @@
+[
+  { "file": "Pattern 1 treble clef.xml", "group": "Memorization patterns" },
+  { "file": "Pattern 1 bass clef.xml",   "group": "Memorization patterns" },
+  { "file": "Pattern 2 treble clef.xml", "group": "Memorization patterns" },
+  { "file": "Pattern 2 bass clef.xml",   "group": "Memorization patterns" },
+  { "file": "Pattern 3 treble clef.xml", "group": "Memorization patterns" },
+  { "file": "Pattern 3 bass clef.xml",   "group": "Memorization patterns" },
+  { "file": "Pattern 4 treble clef.xml", "group": "Memorization patterns" },
+  { "file": "Pattern 4 bass clef.xml",   "group": "Memorization patterns" },
+  { "file": "Pattern 5 treble clef.xml", "group": "Memorization patterns" },
+  { "file": "Pattern 6 treble clef.xml", "group": "Memorization patterns" },
+  { "file": "Pattern 7 treble clef.xml", "group": "Memorization patterns" },
+  { "file": "Pattern 8 treble clef.xml", "group": "Memorization patterns" },
+
+  {
+    "file": "I-1.xml",
+    "group": "Unit I melodies",
+    "presets": {
+      "assigned": {
+        "staff": "solfege",
+        "syllables": false,
+        "audio": false,
+        "tempo": 90
+      }
+    }
+  },
+  {
+    "file": "I-2.xml",
+    "group": "Unit I melodies",
+    "presets": {
+      "assigned": {
+        "staff": "solfege",
+        "syllables": false,
+        "audio": false,
+        "tempo": 90
+      }
+    }
+  },
+  {
+    "file": "I-3.xml",
+    "group": "Unit I melodies",
+    "presets": {
+      "assigned": {
+        "staff": "solfege",
+        "syllables": false,
+        "audio": false,
+        "tempo": 50
+      }
+    }
+  },
+  {
+    "file": "I-4.xml",
+    "group": "Unit I melodies",
+    "presets": {
+      "assigned": {
+        "staff": "traditional",
+        "syllables": false,
+        "audio": false,
+        "key": "F",
+        "mode": "major",
+        "tempo": 60
+      }
+    }
+  },
+  {
+    "file": "I-5.xml",
+    "group": "Unit I melodies",
+    "presets": {
+      "assigned": {
+        "staff": "traditional",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "C",
+        "mode": "major",
+        "tempo": 60
+      }
+    }
+  },
+  {
+    "file": "I-6.xml",
+    "group": "Unit I melodies",
+    "presets": {
+      "assigned": {
+        "staff": "traditional",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "F",
+        "keyAlternates": ["G"],
+        "mode": "major",
+        "tempo": 60
+      }
+    }
+  },
+  {
+    "file": "I-7.xml",
+    "group": "Unit I melodies",
+    "presets": {
+      "assigned": {
+        "staff": "traditional",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "G",
+        "keyAlternates": ["F"],
+        "mode": "major",
+        "tempo": 90
+      }
+    }
+  },
+  {
+    "file": "I-8.xml",
+    "group": "Unit I melodies",
+    "presets": {
+      "assigned": {
+        "staff": "traditional",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "F",
+        "keyAlternates": ["G"],
+        "mode": "major",
+        "tempo": 90
+      }
+    }
+  },
+  {
+    "file": "II-1.xml",
+    "group": "Unit II melodies",
+    "presets": {
+      "assigned": {
+        "staff": "solfege",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "E",
+        "keyAlternates": ["D", "C"],
+        "mode": "minor",
+        "tempo": 72
+      }
+    }
+  },
+  {
+    "file": "II-2.xml",
+    "group": "Unit II melodies",
+    "presets": {
+      "assigned": {
+        "staff": "solfege",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "C",
+        "keyAlternates": ["D", "A", "E"],
+        "mode": "minor",
+        "tempo": 72
+      }
+    }
+  },
+  {
+    "file": "II-3.xml",
+    "group": "Unit II melodies",
+    "presets": {
+      "assigned": {
+        "staff": "solfege",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "G",
+        "keyAlternates": ["A"],
+        "mode": "minor",
+        "tempo": 84
+      }
+    }
+  },
+  {
+    "file": "II-4.xml",
+    "group": "Unit II melodies",
+    "presets": {
+      "assigned": {
+        "staff": "solfege",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "B",
+        "keyAlternates": ["A", "C"],
+        "mode": "minor",
+        "tempo": 84
+      }
+    }
+  },
+  {
+    "file": "II-5.xml",
+    "group": "Unit II melodies",
+    "presets": {
+      "assigned": {
+        "staff": "solfege",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "A",
+        "keyAlternates": ["B", "G"],
+        "mode": "minor",
+        "tempo": 84
+      }
+    }
+  },
+    {
+    "file": "II-6.xml",
+    "group": "Unit II melodies",
+    "presets": {
+      "assigned": {
+        "staff": "traditional",
+        "syllables": false,
+        "audio": false,
+        "metronome": false,
+        "key": "E",
+        "keyAlternates": ["D", "C"],
+        "mode": "minor",
+        "tempo": 74
+      }
+    }
+  },
+
+  { "file": "Descending 5th.xml", "group": "Aural Skills 3" },
+  { "file": "AS3 3 Melodies in DM on Bass clef.xml", "group": "Aural Skills 3"},
+  { "file": "4 Norton melodies.xml", "group": "Aural Skills 3"},
+
+
+  { "file": "DS 10-20-25.xml", "group": "Other" },
+  { "file": "Dh14.xml",        "group": "Other" },
+  { "file": "Dh18.xml",        "group": "Other" },
+  { "file": "DS1.xml",         "group": "Other" },
+  { "file": "DS2.xml",         "group": "Other" },
+  { "file": "DS 10-3.xml", "group": "Other" },
+  { "file": "Bella.xml",       "group": "Other" },
+  { "file": "DS 10-8 duet in C.xml",  "group": "Other" },
+  { "file": "DS 10-15.xml",  "group": "Other" },
+  { "file": "ScoreBuilder1.xml",  "accompaniment": "drumbeat120.mp3", "group": "Other" },
+  { "file": "RMS sight reading.xml",         "group": "Other" }
+]
