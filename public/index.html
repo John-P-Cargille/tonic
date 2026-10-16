@@ -8,20 +8,79 @@
 </head>
 <body>
   <main>
-    <h1>Melodic Dictation</h1>
+    <h1>Tonic - Melodic Dictation Practice</h1>
+
+    <section id="user-notation-container" class="card">
+      <div id="selectedIndex">Selected Index is 1</div>
+      <div id="user-notation"></div>
+    </section>
+
+    <section class="flex-section" id="userControls">
+      <div id="controls">
+        <button id="playPauseBtn">▶︎</button>
+        <!-- hiding currently unfinished tempo controls with hidden visibility -->
+        <label class="tempo" style="display: none;">Tempo:
+          <input id="tempoInput" type="number" min="40" max="240" step="1" value="96" />
+        </label>
+        <button id="applyTempoBtn" style="display: none;">Set</button>
+        <button id="restartBtn" style="display: none;">⟲</button>
+      </div>
+
+      <div id="enter-notes-panel">
+          <form>
+            <label for="noteName">Choose a note:</label>
+            <select id="noteName" name="selectedNoteName">
+              <option value="c">C</option>
+              <option value="c#">C#/Db</option>
+              <option value="d">D</option>
+              <option value="d#">D#/Eb</option>
+              <option value="e">E</option>
+              <option value="f">F</option>
+              <option value="f#">F#/Gb</option>
+              <option value="g">G</option>
+              <option value="g#">G#/Ab</option>
+              <option value="a">A</option>
+              <option value="a#">A#/Bb</option>
+              <option value="b">B</option>
+            </select>
+          </form>
+        <form id="note-value-form">
+            <input type="radio" id="sixteenthValue" name="noteValue" value="16">
+            <label for="sixteenthValue">&#119137</label>
+            <input type="radio" id="eighthValue" name="noteValue" value="8">
+            <label for="eighthValue">&#119136</label>
+            <input type="radio" id="quarterValue" name="noteValue" value="q" checked>
+            <label for="quarterValue">&#119135</label>
+            <input type="radio" id="halfValue" name="noteValue" value="h">
+            <label for="halfValue">&#119134</label>
+            <input type="radio" id="wholeValue" name="noteValue" value="w">
+            <label for="wholeValue">&#119133</label>
+          </form>
+      </div>
+
+      <div class="flex-section" id="buttons">
+        <button id="addNoteBtn">Add Note</button>
+        <button id="removeNoteBtn">Remove Note</button>
+        <button id="octUpBtn">&#8593</button>
+        <button id="octDownBtn">&#8595</button>
+        <button id="submitBtn">Submit</button>
+      </div>
+
+      <div>
+        <div class="grade" id="unweightedGrade"></div>
+        <div class="grade" id="weightedGrade"></div>
+      </div>
+    </section>
+
+    <section style="display: none" id="indexAccess">
+      <input style="display: none" type="number" id="stackIndexValue" name="stackIndexValue" step="1" value="1">
+      <button style="display: none" id="indexUpdateTracker"></button>
+    </section>
 
     <section id="notation-container" class="card">
       <div id="notation"></div>
     </section>
 
-    <section id="controls">
-      <button id="playPauseBtn">▶︎</button>
-      <label class="tempo">Tempo:
-        <input id="tempoInput" type="number" min="40" max="240" step="1" value="96" />
-      </label>
-      <button id="applyTempoBtn">Set</button>
-      <button id="restartBtn">⟲</button>
-    </section>
   </main>
 
   <!-- Same as full app: global Vex.Flow -->
