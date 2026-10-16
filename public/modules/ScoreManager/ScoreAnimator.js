@@ -568,6 +568,8 @@ export const ScoreAnimator = {
     this.playhead.setAttribute("transform", "translate(0,5)");
     this.playhead.setAttribute("fill", "red");
     this.playhead.setAttribute("id", "playhead");
+    //Hides playhead
+    this.playhead.setAttribute("display", "none");
 
     // Safeguard: Ensure the container exists
     if (!this.container) {

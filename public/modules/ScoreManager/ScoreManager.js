@@ -176,6 +176,9 @@ class ScoreManager {
           if (measureIndex === 0) {
             staves[staffIndex].addKeySignature(vexTonicLabel);
             staves[staffIndex].addClef(resolvedClef);
+            //Displays time signature
+            const timeSignature = this.timeSignature.beats + "/" + this.timeSignature.type;
+            staves[staffIndex].addTimeSignature(timeSignature);
             this.lastKeySigDrawn = vexTonicLabel;
           } else {
             // mid-system key change
@@ -453,6 +456,9 @@ class ScoreManager {
             const ap = window.audioPlayer;
             if (ap?.isPlaying) return;           // don’t seek while playing
 
+            //Exposes index of the clicked notehead
+            document.getElementById("stackIndexValue").value = stackIndex;
+            document.getElementById("indexUpdateTracker").click();
             // Jump engine time + playhead + repaint + accomp offset + metronome phase
             ScoreAnimator.seekToIndex(stackIndex, ap, { movePlayhead: true, repaint: true });
           });
