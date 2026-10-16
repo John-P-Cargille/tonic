@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Melodic Dictation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main>
+    <h1>Melodic Dictation</h1>
+
+    <section id="notation-container" class="card">
+      <div id="notation"></div>
+    </section>
+
+    <section id="controls">
+      <button id="playPauseBtn">▶︎</button>
+      <label class="tempo">Tempo:
+        <input id="tempoInput" type="number" min="40" max="240" step="1" value="96" />
+      </label>
+      <button id="applyTempoBtn">Set</button>
+      <button id="restartBtn">⟲</button>
+    </section>
+  </main>
+
+  <!-- Same as full app: global Vex.Flow -->
+  <script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.2/build/cjs/vexflow-debug.js"></script>
+
+  <!-- Your module after VexFlow -->
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
